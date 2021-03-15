@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'FALAFEL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x5824bbe60efd1b321abb3975f07388d898da5c9f',
+      56: '0x35f4e1af8d76f33ce8b051b6c15050afab9e83e2',
     },
     tokenSymbol: 'FALAFEL',
     tokenAddresses: {
       97: '',
-      56: '0x9c5D0C6a3be22B5dbd18275527CC17FB6327d696',
+      56: '0x1d54B2d7e2b8C6F2F3A84914E8720595a579ECe4',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'FALAFEL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xbaea9bbfb263fe1f3b2c69985e1232baa5e6026c',
+      56: '0x25092f5d16ed9fef534e9ff014dc336c64d931d3',
     },
     tokenSymbol: 'FALAFEL',
     tokenAddresses: {
       97: '',
-      56: '0x9c5D0C6a3be22B5dbd18275527CC17FB6327d696',
+      56: '0x1d54B2d7e2b8C6F2F3A84914E8720595a579ECe4',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -185,12 +185,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'FALAFEL',
     lpAddresses: {
       97: '',
-      56: '0x5824bbe60efd1b321abb3975f07388d898da5c9f', // FALAFEL-BUSD LP
+      56: '0x35f4e1af8d76f33ce8b051b6c15050afab9e83e2', // FALAFEL-BUSD LP
     },
     tokenSymbol: 'FALAFEL',
     tokenAddresses: {
       97: '',
-      56: '0x9c5D0C6a3be22B5dbd18275527CC17FB6327d696',
+      56: '0x1d54B2d7e2b8C6F2F3A84914E8720595a579ECe4',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -202,7 +202,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x5824bbe60efd1b321abb3975f07388d898da5c9f', // FALAFEL-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x35f4e1af8d76f33ce8b051b6c15050afab9e83e2', // FALAFEL-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
